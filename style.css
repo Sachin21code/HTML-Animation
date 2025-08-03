@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Parent{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    transform: rotate(30deg);
+}
+#img1{
+    position: absolute;
+    left: 20;
+    transition: transform 2s;
+}
+#img2{
+    position: absolute;
+    left: 90;
+    transition: transform 2s;
+}
+#img3{
+    position: absolute;
+    left: 160;
+    transition: transform 2s;
+}
+#img4{
+    position: absolute;
+    left: 230;
+    transition: transform 2s;
+}
+#img5{
+    position: absolute;
+    left: 300;
+    transition: transform 2s;
+}#img6{
+    position: absolute;
+    left: 370;
+    transition: transform 2s;
+}#img7{
+    position: absolute;
+    left: 440;
+    transition: transform 2s;
+}#img8{
+    position: absolute;
+    left: 510;
+    transition: transform 2s;
+}#img9{
+    position: absolute;
+    left: 580;
+    transition: transform 2s;
+}#img10{
+    position: absolute;
+    left: 650;
+    transition: transform 2s;
+}#img11{
+    position: absolute;
+    left: 720;
+    transition: transform 2s;
+}
+
+
+#img1:hover,#img2:hover,#img3:hover,#img4:hover,
+#img5:hover,#img6:hover,#img7:hover,#img8:hover,
+#img9:hover,#img10:hover,#img11:hover{
+    z-index: 2;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
